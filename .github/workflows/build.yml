@@ -1,0 +1,75 @@
+name: 生成订阅日历
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'holidays.json'
+      - 'generate_ics.py'
+      - 'day_of_year_config.json'
+      - 'generate_day_of_year.py'
+      - 'lunar_config.json'
+      - 'generate_lunar_calendar.py'
+      - 'solar_terms_config.json'
+      - 'generate_solar_terms.py'
+      - 'sun_config.json'
+      - 'generate_sun_times.py'
+      - 'weather_config.json'
+      - 'generate_weather.py'
+      - 'requirements.txt'
+  schedule:
+    # 每月1号:让"全年第几天/农历/节气/日出日落"这几个纯计算类日历
+    # 的年份范围自动往后滚动,不需要手动维护
+    - cron: '0 0 1 * *'
+    # 每天早上8点(北京时间,对应UTC 0点):刷新未来7天天气预报,
+    # 天气数据实时变化,必须每天更新
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 设置Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      - name: 生成节假日日历
+        run: |
+          mkdir -p output
+          python generate_ics.py
+
+      - name: 生成全年第几天日历
+        run: python generate_day_of_year.py
+
+      - name: 生成中国农历日历
+        run: python generate_lunar_calendar.py
+
+      - name: 生成二十四节气日历
+        run: python generate_solar_terms.py
+
+      - name: 生成上海日出日落日历
+        run: python generate_sun_times.py
+
+      - name: 生成上海天气预报日历
+        run: python generate_weather.py
+        continue-on-error: true
+        # 天气接口是第三方未公开文档的接口,偶尔可能超时或结构变化,
+        # 单独失败不应该影响其他5个日历正常生成和提交
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "自动更新订阅日历"
+          git push
