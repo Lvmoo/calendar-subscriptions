@@ -9,7 +9,7 @@
 | 中国农历 | `output/lunar-calendar.ics` | 完全自动,免维护 |
 | 二十四节气 | `output/solar-terms.ics` | 完全自动,免维护 |
 | 上海日出日落 | `output/sun-times-shanghai.ics` | 完全自动,免维护 |
-| 上海未来7天天气 | `output/weather-shanghai.ics` | 完全自动,**每天**刷新 |
+| 上海未来7天天气 | `output/weather-shanghai.ics` | 完全自动,**每小时**刷新 |
 
 ## 工作原理
 
@@ -49,16 +49,17 @@
 链接格式统一为:
 
 ```
-https://raw.githubusercontent.com/你的用户名/仓库名/main/output/文件名.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/文件名.ics
 ```
 
 比如:
 ```
-https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/china-holidays.ics
-https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/day-of-year.ics
-https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/lunar-calendar.ics
-https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/solar-terms.ics
-https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/sun-times-shanghai.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/china-holidays.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/day-of-year.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/lunar-calendar.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/solar-terms.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/sun-times-shanghai.ics
+https://raw.githubusercontent.com/lvmoo/calendar-subscriptions/main/output/weather-shanghai.ics
 ```
 
 四个链接互相独立,可以分别发给不同的人订阅。
@@ -240,7 +241,7 @@ https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/su
 
 ## 更新频率
 
-天气预报每天都会变,workflow里为这个日历单独配置了**每天自动运行一次**
+天气预报每天都会变,workflow里为这个日历单独配置了**每小时自动运行一次**
 的定时任务(其余计算类日历是每月一次)。也就是说这个日历始终保持"从今天
 起未来7天"的最新预报,过时的日期会在每次刷新时自动被替换掉,不需要
 手动维护。
@@ -253,7 +254,7 @@ https://raw.githubusercontent.com/zhangsan/calendar-subscriptions/main/output/su
 {
   "calendar_name": "上海未来7天天气(中央气象台)",
   "city_name": "上海",
-  "stationid": "58367"
+  "stationid": "WwcJd"
 }
 ```
 
