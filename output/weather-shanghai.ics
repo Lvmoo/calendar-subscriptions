@@ -7,56 +7,56 @@ X-WR-CALNAME:上海未来7天天气(中央气象台)
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:weather-20260818@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260818
 DTEND;VALUE=DATE:20260819
 SUMMARY:☁️ 阴 27°~31°C
-DESCRIPTION:白天:阴 东风微风\;夜间:多云 东南风微风\;最高温:31°C\;最低温:27°C\;实况气温:26.8°C\;体感温度:32.0°C\;湿度:87.0%\;气压:暂无数据hPa\;实况风力:暂无数据微风\;降水量:0.0mm\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:阴 东风微风\;夜间:多云 东南风微风\;最高温:31°C\;最低温:27°C\;实况气温:26.5°C\;体感温度:31.6°C\;湿度:87.0%\;气压:暂无数据hPa\;实况风力:暂无数据微风\;降水量:0.0mm\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20260819@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260819
 DTEND;VALUE=DATE:20260820
 SUMMARY:🌦️ 小雨 27°~32°C
-DESCRIPTION:白天:小雨 东风微风\;夜间:小雨 东风微风\;最高温:32°C\;最低温:27°C\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 东风微风\;夜间:小雨 东风微风\;最高温:32°C\;最低温:27°C\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20260820@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260820
 DTEND;VALUE=DATE:20260821
 SUMMARY:🌦️ 小雨 27°~30°C
-DESCRIPTION:白天:小雨 东风微风\;夜间:小雨 东南风微风\;最高温:30°C\;最低温:27°C\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 东风微风\;夜间:小雨 东南风微风\;最高温:30°C\;最低温:27°C\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20260821@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260821
 DTEND;VALUE=DATE:20260822
 SUMMARY:🌦️ 小雨 27°~30°C
-DESCRIPTION:白天:小雨 东南风微风\;夜间:小雨 东南风微风\;最高温:30°C\;最低温:27°C\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 东南风微风\;夜间:小雨 东南风微风\;最高温:30°C\;最低温:27°C\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20260822@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260822
 DTEND;VALUE=DATE:20260823
 SUMMARY:🌦️ 小雨 27°~31°C
-DESCRIPTION:白天:小雨 东南风微风\;夜间:阴 东南风微风\;最高温:31°C\;最低温:27°C\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 东南风微风\;夜间:阴 东南风微风\;最高温:31°C\;最低温:27°C\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20260823@nmc-forecast
-DTSTAMP:20260817T201437Z
+DTSTAMP:20260817T211557Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260824
 SUMMARY:🌦️ 小雨 28°~33°C
-DESCRIPTION:白天:小雨 南风微风\;夜间:小雨 南风微风\;最高温:33°C\;最低温:28°C\;更新时间:2026-08-18 04:14（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 南风微风\;夜间:小雨 南风微风\;最高温:33°C\;最低温:28°C\;更新时间:2026-08-18 05:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
