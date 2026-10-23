@@ -7,65 +7,65 @@ X-WR-CALNAME:上海未来7天天气(中央气象台)
 X-WR-TIMEZONE:Asia/Shanghai
 BEGIN:VEVENT
 UID:weather-20261023@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-SUMMARY:🌦️ 小雨 20°~22°C
-DESCRIPTION:白天:小雨 北风微风\;夜间:大雨 东北风微风\;最高温:22°C\;最低温:20°C\;实况气温:21.9°C\;体感温度:23.9°C\;湿度:69.0%\;气压:暂无数据hPa\;实况风力:东北风微风\;降水量:0.0mm\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+SUMMARY:🌧️ 暂无数据 20°~?°C
+DESCRIPTION:白天:暂无数据 暂无数据暂无数据\;夜间:大雨 东北风微风\;最高温:?°C\;最低温:20°C\;实况气温:17.9°C\;体感温度:19.9°C\;湿度:92.0%\;气压:暂无数据hPa\;实况风力:西南风微风\;降水量:1.4mm\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261024@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:🌧️ 中雨 20°~22°C
-DESCRIPTION:白天:中雨 东北风微风\;夜间:中雨 东北风3~4级\;最高温:22°C\;最低温:20°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:中雨 东北风微风\;夜间:中雨 东北风3~4级\;最高温:22°C\;最低温:20°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261025@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:🌧️ 中雨 19°~23°C
-DESCRIPTION:白天:中雨 东北风微风\;夜间:小雨 西北风微风\;最高温:23°C\;最低温:19°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:中雨 东北风微风\;夜间:小雨 西北风微风\;最高温:23°C\;最低温:19°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261026@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261026
 DTEND;VALUE=DATE:20261027
 SUMMARY:☁️ 阴 16°~22°C
-DESCRIPTION:白天:阴 西北风微风\;夜间:多云 西北风微风\;最高温:22°C\;最低温:16°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:阴 西北风微风\;夜间:多云 西北风微风\;最高温:22°C\;最低温:16°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261027@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
-SUMMARY:☁️ 阴 14°~20°C
-DESCRIPTION:白天:阴 北风微风\;夜间:多云 北风微风\;最高温:20°C\;最低温:14°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+SUMMARY:☁️ 阴 15°~20°C
+DESCRIPTION:白天:阴 北风微风\;夜间:多云 北风微风\;最高温:20°C\;最低温:15°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261028@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
-SUMMARY:⛅ 多云 14°~19°C
-DESCRIPTION:白天:多云 东风微风\;夜间:小雨 东南风微风\;最高温:19°C\;最低温:14°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+SUMMARY:⛅ 多云 15°~19°C
+DESCRIPTION:白天:多云 东风微风\;夜间:小雨 东南风微风\;最高温:19°C\;最低温:15°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:weather-20261029@nmc-forecast
-DTSTAMP:20261023T064213Z
+DTSTAMP:20261023T121539Z
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
 SUMMARY:🌦️ 小雨 16°~21°C
-DESCRIPTION:白天:小雨 南风微风\;夜间:阴 东南风微风\;最高温:21°C\;最低温:16°C\;更新时间:2026-10-23 14:42（北京时间）\;数据来源:中央气象台(nmc.cn)
+DESCRIPTION:白天:小雨 南风微风\;夜间:阴 东南风微风\;最高温:21°C\;最低温:16°C\;更新时间:2026-10-23 20:15（北京时间）\;数据来源:中央气象台(nmc.cn)
 TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
